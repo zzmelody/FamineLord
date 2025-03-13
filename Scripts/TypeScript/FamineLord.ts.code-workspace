@@ -1,0 +1,42 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.tabSize": 4,
+		"editor.insertSpaces": false,
+		"prettier.endOfLine": "lf",
+		"files.eol": "\n",
+		"typescript.suggest.paths": false,
+		"typescript.preferences.importModuleSpecifier": "non-relative",
+	},
+	"launch": {
+		// Use IntelliSense to learn about possible attributes.
+		// Hover to view descriptions of existing attributes.
+		// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Attach",
+				"port": 8081,
+				"request": "attach",
+				"skipFiles": [
+					"<node_internals>/**"
+				],
+				"type": "node"
+			}
+	
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"dbaeumer.vscode-eslint",
+			"ms-vscode.vscode-typescript-next",
+			"ms-vscode.vscode-typescript-language-features",
+			"ms-vscode.vscode-typescript-tslint-plugin",
+			"ms-vscode.vscode-typescript-next",
+		]
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "CommonJS",
+		"jsx": "react",
+		"sourceMap": true,
+		"inlineSources": true,
+		"experimentalDecorators": true,
+		"useDefineForClassFields": true,
+		"baseUrl": ".",
+		"typeRoots": [
+			"./Typing",
+			"node_modules/@types"
+		],
+		"moduleResolution": "node",
+		"skipLibCheck": true,
+		"noImplicitAny": true,
+		"outDir": "dist"
+	},
+	"include": [
+		"./Core/**/*",
+		"./Game/**/*",
+		"./Editor/**/*",
+	]
+}

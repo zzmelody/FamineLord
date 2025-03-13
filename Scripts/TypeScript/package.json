@@ -1,0 +1,22 @@
+{
+  "name": "FLe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "source-map-support": "^0.5.21"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.3.2",
+    "@types/node": "16.3.0",
+    "typescript": "4.7.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch",
+    "postinstall": "xcopy /s /Y ..\\..\\Plugins\\Puerts\\Content\\JavaScript\\* dist\\"
+  },
+  "author": "",
+  "license": "ISC"
+}
