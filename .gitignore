@@ -83,3 +83,6 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# cancel ignore of puerts thirdparty
+!Plugins/Puerts/ThirdParty/**
