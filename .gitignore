@@ -57,6 +57,8 @@ Plugins/*/Binaries/*
 Plugins/**/Binaries/*
 Plugins/*/RiderLink/*
 Plugins/**/CSharpParamDefaultValueMetas/*
+!Plugins/**/CSharpParamDefaultValueMetas/*.cs
+!Plugins/**/CSharpParamDefaultValueMetas/*.csproj
 
 # Builds
 Build/*
